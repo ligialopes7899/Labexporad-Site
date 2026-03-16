@@ -8,7 +8,8 @@ import lipLogo from '@/assets/partners/lip-logo.png';
 import apaLogo from '@/assets/partners/apa-logo.png';
 import nutekLogo from '@/assets/partners/nutek-logo.jpg';
 import isibLogo from '@/assets/partners/isib-logo.png';
-import radonovaLogo from '@/assets/partners/radonova-logo.png';
+import radonovaLogo from '@/assets/partners/radonova-logo.png'
+import pcelogo from '@/assets/partners/pce_logo.png';
 
 const Parceiros = () => {
   const { t } = useLanguage();
@@ -25,6 +26,7 @@ const Parceiros = () => {
     { name: 'ISIB', logo: isibLogo, url: 'https://www.isibnet.be/?lang=en' },
     { name: 'LRN', logo: null, url: 'https://www.uc.pt/fctuc/departamento-de-ciencias-da-terra/investigacao/lrn/' },
     { name: 'Radonova', logo: radonovaLogo, url: 'https://radonova.com/' }
+    { name: 'PCE Instruments', logo: radonovaLogo, url: 'https://www.pce-instruments.com/' }
   ];
 
   const communityPartners = [
