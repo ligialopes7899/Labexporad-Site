@@ -26,7 +26,7 @@ const Contactos = () => {
   const contactInfo = [
     { icon: MapPin, title: t('Morada', 'Address'), content: ['UBIMedical', 'Estrada Municipal 506', '6200-284 Covilhã, Portugal'] },
     { icon: Mail, title: 'Email', content: ['labexporad.ubi@ubi.pt'] },
-    { icon: Phone, title: t('Telefone', 'Phone'), content: ['+351 275 241 272'] },
+    { icon: Phone, title: t('Telefone', 'Phone'), content: ['+351 275 241 272 ext. 5653'] },
     { icon: Clock, title: t('Horário', 'Hours'), content: [t('Seg-Sex 09:00-18:00', 'Mon-Fri 09:00-18:00')] }
   ];
 
