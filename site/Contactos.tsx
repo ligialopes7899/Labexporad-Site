@@ -14,14 +14,14 @@ const Contactos = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  /*const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setTimeout(() => {
       setIsSubmitting(false);
       toast({ title: t('Mensagem Enviada', 'Message Sent'), description: t('Entraremos em contacto brevemente.', 'We will contact you shortly.') });
     }, 1000);
-  };
+  }*/;
 
   const contactInfo = [
     { icon: MapPin, title: t('Morada', 'Address'), content: ['UBIMedical', 'Estrada Municipal 506', '6200-284 Covilhã, Portugal'] },
